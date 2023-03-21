@@ -21,6 +21,12 @@ func spinner() {
 	}
 }
 
+// Green color
+
+func green() {
+	fmt.Printf("\033[32m")
+}
+
 // Clear the terminal
 
 func clear() {
